@@ -12,3 +12,5 @@ Mögliche Bilder findest du unter: https://unsplash.com/
 Der Stil ist unvollständig und sieht nicht anschaulich aus. Nutze dein CSS Wissen, um die Größe der Bilder zu verändert. Achte darauf, dass deine Seite responsiv ist und sich an die Bildschirmgröße anpasst. Deine Ergebnisse dürfen individuell sein.
 # Teil 4:
 Dies ist nun dein Projekt. Erstelle in Github ein eigenes Repository und lade dort dein eben erstelltes Projekt hoch.
+
+[Live Version] ( https://venskolev.github.io/venskolev-UIB-Workshop-02-Template/)
