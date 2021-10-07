@@ -87,7 +87,6 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
-
 button{
     background: radial-gradient(ellipse at top, #e66465, transparent),
     radial-gradient(ellipse at bottom, #0c5d9f, transparent);
@@ -103,7 +102,6 @@ button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 input[type=submit]:hover {
     background-color: #6a726a;
 }
