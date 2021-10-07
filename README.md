@@ -13,4 +13,5 @@ Der Stil ist unvollständig und sieht nicht anschaulich aus. Nutze dein CSS Wiss
 # Teil 4:
 Dies ist nun dein Projekt. Erstelle in Github ein eigenes Repository und lade dort dein eben erstelltes Projekt hoch.
 
-[Live Version] ( https://venskolev.github.io/venskolev-UIB-Workshop-02-Template/)
+
+[Live version]( https://venskolev.github.io/venskolev-UIB-Workshop-02-Template/)
