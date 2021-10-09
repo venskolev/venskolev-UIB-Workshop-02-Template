@@ -6,65 +6,104 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <script src="https://kit.fontawesome.com/266eebd455.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gallery.css">
 <body>
 <!-- !PAGE CONTENT! -->
 <main class="content">
-  <!-- Header -->
+  <!-- Header Menu -->
   <header>
-    <button><a href="#">My ART</a></button>
-    <button><a href="#about">About</a></button>
+        <div class="navbar box-shadow">
+            <a href="#">My ART</a>
+            <a href="#about">About</a>
+        </div>
   </header>
   <!-- Photo Grid -->
   <section class="w3-row">
-    <div class="w3-half-1">
+    <div class="w3-half-1 box-shadow">
         <figure>
-            <img src="./imgages/streetart.jpg" alt="streetart">
+            <a href="#streetart"><img src="./imgages/streetart.jpg" alt="streetart"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart">
+            <span id="streetart"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart2.jpg" alt="streetart2">
+            <a href="#streetart2"><img src="./imgages/streetart2.jpg" alt="streetart2"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart2">
+            <span id="streetart2"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart3.jpg" alt="streetart3">
+            <a href="#streetart3"><img src="./imgages/streetart3.jpg" alt="streetart3"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart3">
+            <span id="streetart3"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart4.jpg" alt="streetart4">
+            <a href="#streetart4"><img src="./imgages/streetart4.jpg" alt="streetart4"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart4">
+            <span id="streetart4"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart5.jpg" alt="streetart5">
+            <a href="#streetart5"><img src="./imgages/streetart5.jpg" alt="streetart5"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart5">
+            <span id="streetart5"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart6.jpg" alt="streetart6">
+            <a href="#streetart6"><img src="./imgages/streetart6.jpg" alt="streetart6"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart6">
+            <span id="streetart6"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart7.jpg" alt="streetart7">
+            <a href="#streetart7"><img src="./imgages/streetart7.jpg" alt="streetart7"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart7">
+            <span id="streetart7"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart8.jpg" alt="streetart8">
+            <a href="#streetart8"><img src="./imgages/streetart8.jpg" alt="streetart8"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart8">
+            <span id="streetart8"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart9.jpg" alt="streetart9">
+            <a href="#streetart9"><img src="./imgages/streetart9.jpg" alt="streetart9"></a>
             <figcaption>Frankfurt am Main</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart9">
+            <span id="streetart9"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart10.jpg" alt="streetart10">
+            <a href="#streetart10"><img src="./imgages/streetart10.jpg" alt="streetart10"></a>
             <figcaption>Köln</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart10">
+            <span id="streetart10"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart11.jpg" alt="streetart11">
+            <a href="#streetart11"><img src="./imgages/streetart11.jpg" alt="streetart11"></a>
             <figcaption>Köln</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart11">
+            <span id="streetart11"></span>
+            </a>
         <figure>
-            <img src="./imgages/streetart12.jpg" alt="streetart12">
+            <a href="#streetart12"><img src="./imgages/streetart12.jpg" alt="streetart12"></a>
             <figcaption>Saarburg</figcaption>
         </figure>
+            <a href="#" class="lightbox" id="streetart12">
+            <span id="streetart12"></span>
+            </a>
     </div>
     <div class="w3-half-2"></div>
   </section>
@@ -73,11 +112,12 @@
 <!-- About Section -->
 <section class="w3-row justify-evenly item-about">
   <h2 id="about">About</h2>
-    <figure class="card"><img src="./imgages/boy.jpg" alt="myself">
+    <figure class="card box-shadow"><img src="./imgages/boy.jpg" alt="myself">
         <figcaption>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</figcaption><br>
         <strong>Do not hesitate to contact me!</strong>
     </figure>
-    <form class="w3-contact" id="input-form">
+<!-- Contact Form -->
+    <form class="w3-contact box-shadow">
         <label><b>Name</b></label>
         <input type="text" required name="Name">
         <label><b>Email</b></label>

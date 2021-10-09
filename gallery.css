@@ -1,0 +1,61 @@
+/** Lightbox **/
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+}
+.lightbox:target {
+    display: block;
+}
+.lightbox span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 57, 57, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+#streetart {
+    background-image: url('./imgages/streetart.jpg');
+}
+#streetart2 {
+    background-image: url('./imgages/streetart2.jpg');
+}
+#streetart3 {
+    background-image: url('./imgages/streetart3.jpg');
+}
+#streetart4 {
+    background-image: url('./imgages/streetart4.jpg');
+}
+#streetart5 {
+    background-image: url('./imgages/streetart5.jpg');
+}
+#streetart6 {
+    background-image: url('./imgages/streetart6.jpg');
+}
+#streetart7 {
+    background-image: url('./imgages/streetart7.jpg');
+}
+#streetart8 {
+    background-image: url('./imgages/streetart8.jpg');
+}
+#streetart9 {
+    background-image: url('./imgages/streetart9.jpg');
+}
+#streetart10 {
+    background-image: url('./imgages/streetart10.jpg');
+}
+#streetart11 {
+    background-image: url('./imgages/streetart11.jpg');
+}
+#streetart12 {
+    background-image: url('./imgages/streetart12.jpg');
+}
